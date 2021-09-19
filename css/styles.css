@@ -1,0 +1,23 @@
+.container {
+  padding-top: 45px;
+  padding-bottom: 65px;
+}
+#heroImg {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.resultImg {
+  width: 250px;
+  object-fit: cover;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.resultDiv {
+  display: none;
+  text-align: center;
+  padding-top: 50px;
+}

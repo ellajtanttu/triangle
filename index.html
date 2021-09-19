@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Triangle Tracker</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+<div class="container">
+
+  <h1>Triangle Tracker</h1>
+  <h4>Let us help you identify your triangle type!</h4>
+  <img id="heroImg" src="https://images.unsplash.com/photo-1620206343767-7da98185edd4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2200&q=80" alt="abstract purple and blue 3d triangles">
+
+  <form id="triForm">
+
+    <div class="form-row align-items-center">
+      <div class="col-sm-3 my-1">
+        <label class="sr-only" for="inlineFormInputSideA">Side A</label>
+        <input type="text" class="form-control" id="sideAInput" placeholder="Side A Length">
+      </div>
+      <div class="col-sm-3 my-1">
+        <label class="sr-only" for="inlineFormInputSideB">Side B</label>
+        <input type="text" class="form-control" id="sideBInput" placeholder="Side B Length">
+      </div>
+      <div class="col-sm-3 my-1">
+        <label class="sr-only" for="inlineFormInputSideC">Side C</label>
+        <input type="text" class="form-control" id="sideCInput" placeholder="Side C Length">
+      </div>
+      <div class="col-auto my-1">
+        <button type="submit" class="btn btn-dark">Submit</button>
+      </div>
+    </div>
+
+  </form>
+
+  <div class="resultDiv" id="equilDiv">
+    <img class="resultImg" src="https://studiousguy.com/wp-content/uploads/2019/04/Triangle.jpg" alt="equilateral triangle">
+    <h5>Your triangle is an</h5> 
+    <h3>Equilateral Triangle!</h3>
+  </div>
+
+  <div class="resultDiv" id="isoDiv">
+    <img class="resultImg" src="https://www.bigw.com.au/medias/sys_master/images/images/h77/hb5/10352653893662.jpg" alt="isosceles triangle">
+    <h5>Your triangle is an</h5> 
+    <h3>Isosceles Triangle!</h3>
+  </div>
+
+  <div class="resultDiv" id="scalDiv">
+    <img class="resultImg" src="https://cfd.northsails.com/sailing/wp-content/uploads/2020/07/07112020/new-cruising-sail-1.jpg" alt="Scalene triangle">
+    <h5>Your triangle is a</h5> 
+    <h3>Scalene Triangle!</h3>
+  </div>
+
+  <div class="resultDiv" id="notDiv">
+    <img class="resultImg" src="https://c.tenor.com/oBWBg6Den7gAAAAM/sassy-conan.gif" alt="Conan being cute">
+    <h5>Your triangle is</h5> 
+    <h3>Not a Triangle!</h3>
+  </div>
+
+  <div class="resultDiv" id="errorDiv">
+    <img class="resultImg" src="https://thumbs.gfycat.com/PoshScornfulGroundbeetle-size_restricted.gif" alt="Bubbles Blinking">
+    <h5>Oops!</h5> 
+    <h3>It looks like you're missing some key info!</h3>
+  </div>
+
+</div>
+</body>
+
+</html>

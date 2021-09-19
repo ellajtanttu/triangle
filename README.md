@@ -1,6 +1,6 @@
-# _PROJECT NAME_
+# _Triangle Tracker_
 
-#### _EPICODUS PRACTICE: Sample one-sentence description_
+#### _EPICODUS PRACTICE: wk2,l57 A page that identifies triangle type based on user input_
 
 #### By _**Ella Tanttu**_
 
@@ -14,15 +14,22 @@
 
 ## Description
 
-_{Detailed description that explains the project and what concepts were being practiced.}_
+_{Lesson prompt:}_
+_Make a web page that allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an equilateral, isosceles, or scalene triangle or if the sides cannot make a triangle at all. Here are the definitions of each possibility:_
+* _Equilateral: All sides are equal._
+* _Isosceles: Exactly 2 sides are equal._
+* _Scalene: No sides are equal._
+* _NOT a triangle: The sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side._
+_Once your application is functioning correctly, try to refactor your code as much as possible._
+
 
 ## Setup/Installation Requirements
 
-* _Navigate to https://github.com/url-path in your browser_
+* _Navigate to https://github.com/ellajtanttu/triangle in your browser_
 * _Clone this repository to your desktop_
 * _Navigate to the top level of the directory_
 * _Connect to your github repository_
-* _open DIRECTORYNAME/index.html in your browser_
+* _open triangle/index.html in your browser_
 * _Open index.html and styles.css in VS Code to edit_
 
 ## Known Bugs

@@ -13,30 +13,7 @@
 <div class="container">
 
   <h1>Triangle Tracker</h1>
-  <h4>Let us help you identify your triangle type!</h4>
   <img id="heroImg" src="https://images.unsplash.com/photo-1620206343767-7da98185edd4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2200&q=80" alt="abstract purple and blue 3d triangles">
-
-  <form id="triForm">
-
-    <div class="form-row align-items-center">
-      <div class="col-sm-3 my-1">
-        <label class="sr-only" for="inlineFormInputSideA">Side A</label>
-        <input type="text" class="form-control" id="sideAInput" placeholder="Side A Length">
-      </div>
-      <div class="col-sm-3 my-1">
-        <label class="sr-only" for="inlineFormInputSideB">Side B</label>
-        <input type="text" class="form-control" id="sideBInput" placeholder="Side B Length">
-      </div>
-      <div class="col-sm-3 my-1">
-        <label class="sr-only" for="inlineFormInputSideC">Side C</label>
-        <input type="text" class="form-control" id="sideCInput" placeholder="Side C Length">
-      </div>
-      <div class="col-auto my-1">
-        <button type="submit" class="btn btn-dark">Submit</button>
-      </div>
-    </div>
-
-  </form>
 
   <div class="resultDiv" id="equilDiv">
     <img class="resultImg" src="https://studiousguy.com/wp-content/uploads/2019/04/Triangle.jpg" alt="equilateral triangle">
@@ -64,10 +41,34 @@
 
   <div class="resultDiv" id="errorDiv">
     <img class="resultImg" src="https://thumbs.gfycat.com/PoshScornfulGroundbeetle-size_restricted.gif" alt="Bubbles Blinking">
-    <h5>Oops!</h5> 
-    <h3>It looks like you're missing some key info!</h3>
+    <h3>Oops!</h3> 
+    <h5>It looks like you're missing some key info...</h5>
   </div>
 
+
+  <form id="triForm">
+
+    <div class="form-row align-items-center">
+      <div class="col-sm my-1">
+        <label class="sr-only" for="inlineFormInputSideA">Side A</label>
+        <input type="text" class="form-control" id="sideAInput" placeholder="Side A Length">
+      </div>
+      <div class="col-sm my-1">
+        <label class="sr-only" for="inlineFormInputSideB">Side B</label>
+        <input type="text" class="form-control" id="sideBInput" placeholder="Side B Length">
+      </div>
+      <div class="col-sm my-1">
+        <label class="sr-only" for="inlineFormInputSideC">Side C</label>
+        <input type="text" class="form-control" id="sideCInput" placeholder="Side C Length">
+      </div>
+      <div class="col-auto my-1">
+        <button type="submit" class="btn btn-dark">Submit</button>
+      </div>
+    </div>
+
+  </form>
+
+  
 </div>
 </body>
 

@@ -4,6 +4,8 @@
 
 #### By _**Ella Tanttu**_
 
+[View Deployment](https://ellajtanttu.github.io/triangle/)
+
 ## Technologies Used
 
 * _CSS_
